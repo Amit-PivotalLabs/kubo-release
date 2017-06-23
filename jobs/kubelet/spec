@@ -34,5 +34,5 @@ provides:
 # for ha-proxy tcp worker linking
 # the 'ssh_proxy' type must match the 'tcp_backend' link
 # see https://github.com/cloudfoundry-incubator/haproxy-boshrelease/blob/master/jobs/haproxy/spec
-- name: haproxy
+- name: worker_haproxy
   type: ssh_proxy
